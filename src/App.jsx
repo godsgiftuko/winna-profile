@@ -5,7 +5,7 @@ import Contact from './components/Contact'
 import Projects from './components/Projects'
 import LinkedinLogo from './assets/linkedin.svg'
 import GithubLogo from './assets/github.svg'
-import './app.css'
+import './App.css'
 
 
 function App() {
