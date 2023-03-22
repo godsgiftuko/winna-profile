@@ -4,12 +4,12 @@ import About from './components/About'
 import Contact from './components/contact'
 import Projects from './components/Projects'
 import LinkedinLogo from './assets/linkedin.svg'
-import GithubLogo from'./assets/github.svg'
+import GithubLogo from './assets/github.svg'
 import './app.css'
 
 
 function App() {
-return (
+  return (
     <div className='App'>
       <header>
         <h4>Winner</h4>
@@ -18,29 +18,29 @@ return (
           <a href='#about'>About</a>
           <a href='#contact'>Contact</a>
           <a href='#projects'>projects</a>
-          
+
         </div>
       </header>
       <main>
-      <Home/>
-      <About/>
-      <Projects/>
-      <Contact/>
+        <Home />
+        <About />
+        <Projects />
+        <Contact />
       </main>
-      
+
       <footer>
-      <div className='social'>
-        <a href="https://www.linkedin.com/in/blessing-winner-88b669228/" target="_blank">
-        <img src='{LinkedinLogo}' alt='' />
-        </a>
-        
-      <a href="https://github.com/Winner070/mainprojectgroup2.git" target="_blank">
-      <img src='{GithubLogo}' alt='' />
-      </a>
-      </div>
-      <p>&copy; Blessing Winner</p>
-    </footer>
-    </div> 
+        <div className='social'>
+          <a href="https://www.linkedin.com/in/blessing-winner-88b669228/" target="_blank">
+            <img src={LinkedinLogo} alt='' />
+          </a>
+
+          <a href="https://github.com/Winner070/mainprojectgroup2.git" target="_blank">
+            <img src={GithubLogo} alt='' />
+          </a>
+        </div>
+        <p>&copy; Blessing Winner</p>
+      </footer>
+    </div>
   )
 }
 
